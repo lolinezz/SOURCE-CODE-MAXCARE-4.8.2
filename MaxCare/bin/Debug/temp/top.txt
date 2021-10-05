@@ -1,0 +1,237 @@
+﻿<!doctype html>
+<html lang="en ng-app">
+
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.plugins.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+	<div ng-app="myApp" ng-controller="myCtrl">
+		<div style='padding:10px'>
+			<br /><a href='http://facebook.com/{{obj.fb_id}}'>{{user_obj.name}} - {{user_obj.fb_id}} - {{user_obj.id}} -
+				{{user_obj.email}} - {{user_obj.data_obj.birthday}}</a><br /><br />
+			<ul class="nav nav-tabs" role="tablist">
+				<li ng-class="{active:cms_tab==1}"><a href='#' ng-click="cms_tab=1">Ảnh</a></li>
+				<li ng-class="{active:cms_tab==2}"><a href='#' ng-click="cms_tab=2">Comment</a></li>
+				<li ng-class="{active:cms_tab==3}"><a href='#' ng-click="cms_tab=3">Tin nhắn</a></li>
+			</ul>
+			<div class="tab-content" style='padding:10px;border: 1px solid #ccc; border-top:0px;'>
+				<div class="tab-pane" ng-class="{active:cms_tab==1}">
+					<input type="text" class="form-control" ng-change='do_filter(1, filter_photo)' ng-model="filter_photo" placeholder="Copy tất cả 6 tên để tìm cùng lúc"
+					 ng-model-options="{debounce: 500}" />
+					<br />
+					<div class="friend_line" ng-repeat='obj in photo_objs'>
+						<div class="friend_info">
+							<div class="img">
+								<img class='lazyload' data-src='http://graph.facebook.com/{{obj.id}}/picture?type=large' style="display: inline;">
+							</div>
+							<div class="name">
+								<a class="title" href="https://www.facebook.com/{{obj.id}}" target='_blank'>{{obj.name}}</a>
+							</div>
+						</div>
+						<div class="friend_photo">
+							<div ng-bind-html='obj.photo_html'></div>
+						</div>
+					</div>
+					<div class='clearfix'></div>
+					<pagination total-items="totalItems" ng-model="currentPage" ng-change="pageChanged()" max-size="8" class="pagination-sm"
+					 items-per-page="itemsPerPage"></pagination>
+				</div>
+				<div class="tab-pane" ng-class="{active:cms_tab==2}"'>
+						<input type="text" class="form-control" ng-change='
+				 do_filter(2, filter_comment)' ng-model="filter_comment" placeholder="Tìm theo nội dung" ng-model-options="{debounce: 500}" />
+				<br />
+				<div ng-hide='obj.status == 0' ng-repeat='obj in comment_objs'>
+					<div style='padding-top: 7px;'>{{obj.comment}}</div>
+				</div>
+			</div>
+			<div class="tab-pane" ng-class="{active:cms_tab==3}">
+				<input type="text" class="form-control" ng-change='do_filter(3, filter_message)' ng-model="filter_message"
+				 placeholder="Tìm theo tên hoặc nội dung" ng-model-options="{debounce: 500}" />
+				<br />
+				<div ng-hide='obj.status == 0' ng-repeat='obj in message_objs'>
+					<div ng-hide='message_obj.status == 0' ng-repeat='message_obj in obj.message_objs'>
+						<div style='padding-top: 7px;'>
+							<span ng-if='message_obj.author == obj.participants.data[0].id'><b><a class="title" href="https://www.facebook.com/{{obj.participants.data[0].id}}"
+									 target='_blank'>{{obj.participants.data[0].name}}</a> -> You</b>: </span>
+							<span ng-if='message_obj.author != obj.participants.data[0].id'><b>You -> <a class="title" href="https://www.facebook.com/{{obj.participants.data[0].id}}"
+									 target='_blank'>{{obj.participants.data[0].name}}</a></b>: </span>
+							<span ng-if='message_obj.body'>{{message_obj.body}}</span>
+							<span ng-if='message_obj.attachments && message_obj.attachments[0] && message_obj.attachments[0].attach_type'>
+								<span ng-if='message_obj.body'> - </span>[{{message_obj.attachments[0].attach_type}}]
+							</span>
+							<span>({{message_obj.timestamp*1000 | date:'yyyy-MM-dd HH:mm:ss'}})</span>
+						</div>
+					</div>
+					<div ng-if='obj.message_objs.length <= 0'>
+						<span ng-if='obj.snippet_sender == obj.participants.data[0].id'><b><a class="title" href="https://www.facebook.com/{{obj.participants.data[0].id}}"
+								 target='_blank'>{{obj.participants.data[0].name}}</a> -> You</b>: {{obj.snippet}}</span>
+						<span ng-if='obj.snippet_sender != obj.participants.data[0].id'><b>You -> <a class="title" href="https://www.facebook.com/{{obj.participants.data[0].id}}"
+								 target='_blank'>{{obj.participants.data[0].name}}</a></b>: {{obj.snippet}}</span>
+					</div>
+					<hr style='margin-bottom:7px;margin-top:7px;' />
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script>
+		var app = angular.module('myApp', ['ui.bootstrap']);
+		angular.module('myApp').config(function ($sceProvider) {
+			$sceProvider.enabled(false);
+		});
+		app.controller('myCtrl', function ($scope) {
+			$scope.super_unicode_char = function (str) {
+				if (str) {
+					var from =
+						"àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđÀÁẠẢÃÂẦẤẬẨẪĂẰẮẶẲẴÈÉẸẺẼÊỀẾỆỂỄÌÍỊỈĨÒÓỌỎÕÔỒỐỘỔỖƠỜỚỢỞỠÙÚỤỦŨƯỪỨỰỬỮỲÝỴỶỸĐ·/_,:;";
+					var to =
+						"aaaaaaaaaaaaaaaaaeeeeeeeeeeeiiiiiooooooooooooooooouuuuuuuuuuuyyyyydAAAAAAAAAAAAAAAAAEEEEEEEEEEEIIIIIOOOOOOOOOOOOOOOOOUUUUUUUUUUUYYYYYD------";
+					for (var i = 0, l = from.length; i < l; i++) {
+						str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+					}
+				}
+				return str;
+			}
+			$scope.format_photo = function (objs) {
+				var cur_objs = [];
+				for (var i = 0; i < objs.length; i++) {
+					var cur_html = '';
+					for (var j = 0; j < objs[i].data.length; j++) {
+						cur_html += '<div class="image">';
+						cur_html += '<a href="' + objs[i].data[j].source + '" target="_blank"><img class="lazyload" data-src="' + objs[
+							i].data[j].source + '" style="display: inline;"></a>';
+						cur_html += '</div>';
+					}
+					objs[i].photo_html = cur_html;
+				}
+				return objs;
+			}
+			$scope.do_filter = function (type, content) {
+				if (type == 1) {
+					var match_objs = [];
+					if (content) {
+						var keyw = content.toString();
+						keyw = $scope.super_unicode_char(keyw);
+						keyw = keyw.toLowerCase();
+						for (var i = 0; i < $scope.raw_photo_objs.length; i++) {
+							var name = $scope.raw_photo_objs[i].name ? $scope.raw_photo_objs[i].name.toString() : '';
+							name = $scope.super_unicode_char(name);
+							name = name.toLowerCase();
+							if (name.indexOf(keyw) > -1 || keyw.indexOf(name) > -1) {
+								match_objs.push($scope.raw_photo_objs[i]);
+							}
+						}
+						$scope.photo_objs = match_objs;
+					} else {
+						$scope.photo_objs = $scope.raw_photo_objs;
+					}
+				} else if (type == 2) {
+					if (content) {
+						var keyw = content.toString();
+						keyw = $scope.super_unicode_char(keyw);
+						keyw = keyw.toLowerCase();
+						for (var i = 0; i < $scope.comment_objs.length; i++) {
+							var name = $scope.comment_objs[i].comment.toString();
+							name = $scope.super_unicode_char(name);
+							name = name.toLowerCase();
+							if (name.indexOf(keyw) > -1 || keyw.indexOf(name) > -1) {
+								$scope.comment_objs[i].status = 1;
+							} else {
+								$scope.comment_objs[i].status = 0;
+							}
+						}
+					} else {
+						for (var i = 0; i < $scope.comment_objs.length; i++) {
+							$scope.comment_objs[i].status = 1;
+						}
+					}
+				} else {
+					if (content) {
+						var keyw = content.toString();
+						keyw = $scope.super_unicode_char(keyw);
+						keyw = keyw.toLowerCase();
+						for (var i = 0; i < $scope.message_objs.length; i++) {
+							var message_name = $scope.message_objs[i].participants.data[0].name.toString();
+							var message_snippet = $scope.message_objs[i].snippet;
+							message_name = $scope.super_unicode_char(message_name);
+							message_name = message_name.toLowerCase();
+							message_snippet = $scope.super_unicode_char(message_snippet);
+							message_snippet = message_snippet.toLowerCase();
+							if (message_name.indexOf(keyw) > -1 || keyw.indexOf(message_name) > -1 || message_snippet.indexOf(keyw) > -1 ||
+								keyw.indexOf(message_snippet) > -1) {
+								for (var j = 0; j < $scope.message_objs[i].message_objs.length; j++) {
+									if (j == 0) {
+										$scope.message_objs[i].message_objs[j].status = 1;
+									} else {
+										$scope.message_objs[i].message_objs[j].status = 0;
+									}
+								}
+								$scope.message_objs[i].status = 1;
+							} else {
+								var hidden_all = true;
+								for (var j = 0; j < $scope.message_objs[i].message_objs.length; j++) {
+									var message_name = $scope.message_objs[i].participants.data[0].name.toString() + ' ' + $scope.message_objs[
+										i].snippet;
+									if ($scope.message_objs[i].message_objs[j].body) {
+										message_name += ' ' + $scope.message_objs[i].message_objs[j].body;
+									}
+									message_name = $scope.super_unicode_char(message_name);
+									message_name = message_name.toLowerCase();
+									if (message_name.indexOf(keyw) > -1 || keyw.indexOf(message_name) > -1) {
+										$scope.message_objs[i].message_objs[j].status = 1;
+										hidden_all = false;
+									} else {
+										$scope.message_objs[i].message_objs[j].status = 0;
+									}
+								}
+								if (hidden_all) {
+									$scope.message_objs[i].status = 0;
+								} else {
+									$scope.message_objs[i].status = 1;
+								}
+							}
+						}
+					} else {
+						for (var i = 0; i < $scope.message_objs.length; i++) {
+							for (var j = 0; j < $scope.message_objs[i].message_objs.length; j++) {
+								$scope.message_objs[i].message_objs[j].status = 1;
+							}
+							$scope.message_objs[i].status = 1;
+						}
+					}
+				}
+			}
+			$scope.pageChanged = function () {
+				$scope.view_limit($scope.currentPage);
+			};
+			$scope.view_limit = function (num) {
+				var min_limit = (num - 1) * $scope.itemsPerPage;
+				var max_limit = min_limit + $scope.itemsPerPage;
+				var show_objs = [];
+				for (i = min_limit; i < max_limit; i++) {
+					if ($scope.raw_photo_objs[i]) {
+						show_objs.push($scope.raw_photo_objs[i]);
+					}
+				}
+				$scope.photo_objs = show_objs;
+				$scope.currentPage = num;
+				setInterval(function () {
+					$('.lazyload').Lazy();
+				}, 1000);
+			}
+
+			$scope.cms_tab = 1;
+			
+			$scope.comment_objs = [];
+
+			$scope.message_objs = [];
+
+			$scope.raw_photo_objs = [];

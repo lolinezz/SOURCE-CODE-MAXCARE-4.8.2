@@ -1,0 +1,9 @@
+﻿$scope.raw_photo_objs.push({
+				"id": "100008229514984",
+				"name": "Eghil Putra Kolut",
+				"data": [{
+					"source": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-9\/10270605_1390808747870096_8574183746020882144_n.jpg?_nc_cat=0&_nc_ad=z-m&_nc_cid=0&oh=ec2f27c9edc8a26007caaba70dab80fc&oe=5BDDF58C",
+					"created_time": "2014-04-29T03:27:29+0000",
+					"id": "1390808747870096"
+				}]
+			});

@@ -1,0 +1,23 @@
+{
+  "ckbCreateProfile": "False",
+  "ckbGetToken": "False",
+  "ckbGetCookie": "False",
+  "ckbCapNhatThongTin": "False",
+  "typeInteract": "1",
+  "ckbRandomHanhDong": "True",
+  "typeLogin": "0",
+  "typeBrowserLogin": "0",
+  "ckbRepeatAll": "False",
+  "ckbLogOut": "False",
+  "ckbLogOutOldDevice": "False",
+  "ckbAutoLinkInstagram": "False",
+  "ckbCreateShortcut": "False",
+  "ckbAllowFollow": "False",
+  "nudDelayRepeat": "0",
+  "nudDelayTurnFrom": "0",
+  "nudDelayTurnTo": "0",
+  "nudSoLuotChay": "0",
+  "RepeatAllVIP": "false",
+  "ckbReviewTag": "False",
+  "cbbKichBan": "99"
+}

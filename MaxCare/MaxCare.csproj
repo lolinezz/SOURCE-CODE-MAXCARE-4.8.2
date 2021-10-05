@@ -1,0 +1,1167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EEF4BFD5-2665-46D2-BFD4-96FE524B9AD7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MaxCare</RootNamespace>
+    <AssemblyName>MaxCare</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>maxcare.Program</StartupObject>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AE.Net.Mail">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\AE.Net.Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="DeviceId">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\DeviceId.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\Emgu.CV.World.dll</HintPath>
+    </Reference>
+    <Reference Include="Http">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\Http.dll</HintPath>
+    </Reference>
+    <Reference Include="MailKit">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedWinapi">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\ManagedWinapi.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\FILE MAXCARE\MaxCare\bin\Debug\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MimeKit">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Otp.NET">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\Otp.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Runtime">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="xNet">
+      <HintPath>C:\Users\tungd\OneDrive\Máy tính\MaxCare gốc\xNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\CheckKey.cs" />
+    <Compile Include="Common\CommonChromeDriver.cs" />
+    <Compile Include="Common\CommonCSharp.cs" />
+    <Compile Include="Common\CommonFacebook.cs" />
+    <Compile Include="Common\CommonIniFile.cs" />
+    <Compile Include="Common\CommonOther.cs" />
+    <Compile Include="IWshRuntimeLibrary\IWshShell.cs" />
+    <Compile Include="IWshRuntimeLibrary\IWshShell2.cs" />
+    <Compile Include="IWshRuntimeLibrary\IWshShell3.cs" />
+    <Compile Include="IWshRuntimeLibrary\IWshShortcut.cs" />
+    <Compile Include="IWshRuntimeLibrary\WshShell.cs" />
+    <Compile Include="License\Hardware.cs" />
+    <Compile Include="License\License.cs" />
+    <Compile Include="License\RNCryptor\AesMode.cs" />
+    <Compile Include="License\RNCryptor\Algorithm.cs" />
+    <Compile Include="License\RNCryptor\Cryptor.cs" />
+    <Compile Include="License\RNCryptor\Decryptor.cs" />
+    <Compile Include="License\RNCryptor\Encryptor.cs" />
+    <Compile Include="License\RNCryptor\HmacAlgorithm.cs" />
+    <Compile Include="License\RNCryptor\Options.cs" />
+    <Compile Include="License\RNCryptor\PayloadComponents.cs" />
+    <Compile Include="License\RNCryptor\Pbkdf2Prf.cs" />
+    <Compile Include="License\RNCryptor\Schema.cs" />
+    <Compile Include="maxcare\BaiViet.cs" />
+    <Compile Include="maxcare\Base.cs" />
+    <Compile Include="maxcare\BitviseHandle.cs" />
+    <Compile Include="maxcare\Comon.cs" />
+    <Compile Include="maxcare\Connector2.cs" />
+    <Compile Include="maxcare\Enum\GetContentStatusChrome.cs" />
+    <Compile Include="maxcare\Enum\StatusChromeAccount.cs" />
+    <Compile Include="maxcare\fAddFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fAddFile.Designer.cs">
+      <DependentUpon>fAddFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fBin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fBin.Designer.cs">
+      <DependentUpon>fBin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fCapNhatDuLieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fCapNhatDuLieu.Designer.cs">
+      <DependentUpon>fCapNhatDuLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhChung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhChung.Designer.cs">
+      <DependentUpon>fCauHinhChung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhHienThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhHienThi.Designer.cs">
+      <DependentUpon>fCauHinhHienThi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhKhoiPhucTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhKhoiPhucTaiKhoan.Designer.cs">
+      <DependentUpon>fCauHinhKhoiPhucTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhQuetNhom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhQuetNhom.Designer.cs">
+      <DependentUpon>fCauHinhQuetNhom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhTaoShortcut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhTaoShortcut.Designer.cs">
+      <DependentUpon>fCauHinhTaoShortcut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhTuongTac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fCauHinhTuongTac.Designer.cs">
+      <DependentUpon>fCauHinhTuongTac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fChange.Designer.cs">
+      <DependentUpon>fChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fChangeConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fChangeConfig.Designer.cs">
+      <DependentUpon>fChangeConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fCheckPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fCheckPoint.Designer.cs">
+      <DependentUpon>fCheckPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fChiTietBaiViet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fChiTietBaiViet.Designer.cs">
+      <DependentUpon>fChiTietBaiViet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fChonBaiViet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fChonBaiViet.Designer.cs">
+      <DependentUpon>fChonBaiViet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fChonKichBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fChonKichBan.Designer.cs">
+      <DependentUpon>fChonKichBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fChonThuMuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fChonThuMuc.Designer.cs">
+      <DependentUpon>fChonThuMuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fClearBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fClearBackup.Designer.cs">
+      <DependentUpon>fClearBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fClearProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fClearProfile.Designer.cs">
+      <DependentUpon>fClearProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fConfigInteract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fConfigInteract.Designer.cs">
+      <DependentUpon>fConfigInteract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fContact.Designer.cs">
+      <DependentUpon>fContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fCopy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fCopy.Designer.cs">
+      <DependentUpon>fCopy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fDanhSachChuDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fDanhSachChuDe.Designer.cs">
+      <DependentUpon>fDanhSachChuDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fDanhSachKichBan_Old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fDanhSachKichBan_Old.Designer.cs">
+      <DependentUpon>fDanhSachKichBan_Old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fEditFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fEditFile.Designer.cs">
+      <DependentUpon>fEditFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBackupData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBackupData.Designer.cs">
+      <DependentUpon>fHDBackupData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietBanBe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietBanBe.Designer.cs">
+      <DependentUpon>fHDBaiVietBanBe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietFanpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietFanpage.Designer.cs">
+      <DependentUpon>fHDBaiVietFanpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietNewsfeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietNewsfeed.Designer.cs">
+      <DependentUpon>fHDBaiVietNewsfeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietNewsfeedv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietNewsfeedv2.Designer.cs">
+      <DependentUpon>fHDBaiVietNewsfeedv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietNhom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietNhom.Designer.cs">
+      <DependentUpon>fHDBaiVietNhom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietProfile.Designer.cs">
+      <DependentUpon>fHDBaiVietProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietTrenTuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBaiVietTrenTuong.Designer.cs">
+      <DependentUpon>fHDBaiVietTrenTuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffFollowCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffFollowCaNhan.Designer.cs">
+      <DependentUpon>fHDBuffFollowCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffFollowLikePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffFollowLikePage.Designer.cs">
+      <DependentUpon>fHDBuffFollowLikePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffLikeComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffLikeComment.Designer.cs">
+      <DependentUpon>fHDBuffLikeComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffTinNhanProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffTinNhanProfile.Designer.cs">
+      <DependentUpon>fHDBuffTinNhanProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffViewVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDBuffViewVideo.Designer.cs">
+      <DependentUpon>fHDBuffViewVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDChangeSoThich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDChangeSoThich.Designer.cs">
+      <DependentUpon>fHDChangeSoThich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDChangeTenPhu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDChangeTenPhu.Designer.cs">
+      <DependentUpon>fHDChangeTenPhu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDChocBanBe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDChocBanBe.Designer.cs">
+      <DependentUpon>fHDChocBanBe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDChucMungSinhNhat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDChucMungSinhNhat.Designer.cs">
+      <DependentUpon>fHDChucMungSinhNhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDDangBai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDDangBai.Designer.cs">
+      <DependentUpon>fHDDangBai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDDangBaiTheoID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDDangBaiTheoID.Designer.cs">
+      <DependentUpon>fHDDangBaiTheoID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDDangStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDDangStatus.Designer.cs">
+      <DependentUpon>fHDDangStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDDangStatusV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDDangStatusV2.Designer.cs">
+      <DependentUpon>fHDDangStatusV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDDangStory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDDangStory.Designer.cs">
+      <DependentUpon>fHDDangStory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDDocThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDDocThongBao.Designer.cs">
+      <DependentUpon>fHDDocThongBao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDDocThongBaov2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDDocThongBaov2.Designer.cs">
+      <DependentUpon>fHDDocThongBaov2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDGiaiCheckpoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDGiaiCheckpoint.Designer.cs">
+      <DependentUpon>fHDGiaiCheckpoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDHuyKetBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDHuyKetBan.Designer.cs">
+      <DependentUpon>fHDHuyKetBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDHuyKetBanNhanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDHuyKetBanNhanh.Designer.cs">
+      <DependentUpon>fHDHuyKetBanNhanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDHuyLikePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDHuyLikePage.Designer.cs">
+      <DependentUpon>fHDHuyLikePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDHuyLoiMoiKetBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDHuyLoiMoiKetBan.Designer.cs">
+      <DependentUpon>fHDHuyLoiMoiKetBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanGoiY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanGoiY.Designer.cs">
+      <DependentUpon>fHDKetBanGoiY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanGoiYv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanGoiYv2.Designer.cs">
+      <DependentUpon>fHDKetBanGoiYv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanNewfeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanNewfeed.Designer.cs">
+      <DependentUpon>fHDKetBanNewfeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTepUid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTepUid.Designer.cs">
+      <DependentUpon>fHDKetBanTepUid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTepUidNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTepUidNew.Designer.cs">
+      <DependentUpon>fHDKetBanTepUidNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTepUidv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTepUidv2.Designer.cs">
+      <DependentUpon>fHDKetBanTepUidv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanThanhVienNhom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanThanhVienNhom.Designer.cs">
+      <DependentUpon>fHDKetBanThanhVienNhom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTheoTuKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTheoTuKhoa.Designer.cs">
+      <DependentUpon>fHDKetBanTheoTuKhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTheoTuKhoav2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanTheoTuKhoav2.Designer.cs">
+      <DependentUpon>fHDKetBanTheoTuKhoav2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanVoiBanBeCuaUid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanVoiBanBeCuaUid.Designer.cs">
+      <DependentUpon>fHDKetBanVoiBanBeCuaUid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanVoiBanCuaBanBe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDKetBanVoiBanCuaBanBe.Designer.cs">
+      <DependentUpon>fHDKetBanVoiBanCuaBanBe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDLinkToInstagram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDLinkToInstagram.Designer.cs">
+      <DependentUpon>fHDLinkToInstagram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDMoiBanBeVaoNhom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDMoiBanBeVaoNhom.Designer.cs">
+      <DependentUpon>fHDMoiBanBeVaoNhom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDMoiLikePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDMoiLikePage.Designer.cs">
+      <DependentUpon>fHDMoiLikePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDNghiGiaiLao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDNghiGiaiLao.Designer.cs">
+      <DependentUpon>fHDNghiGiaiLao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDNhanTinBanBe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDNhanTinBanBe.Designer.cs">
+      <DependentUpon>fHDNhanTinBanBe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDNhanTinPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDNhanTinPage.Designer.cs">
+      <DependentUpon>fHDNhanTinPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDPhanHoiBinhLuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDPhanHoiBinhLuan.Designer.cs">
+      <DependentUpon>fHDPhanHoiBinhLuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDPhanHoiTinNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDPhanHoiTinNhan.Designer.cs">
+      <DependentUpon>fHDPhanHoiTinNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDRoiNhom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDRoiNhom.Designer.cs">
+      <DependentUpon>fHDRoiNhom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDSeedingByVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDSeedingByVideo.Designer.cs">
+      <DependentUpon>fHDSeedingByVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDShareBai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDShareBai.Designer.cs">
+      <DependentUpon>fHDShareBai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDShareBaiv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDShareBaiv2.Designer.cs">
+      <DependentUpon>fHDShareBaiv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDSpamBaiViet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDSpamBaiViet.Designer.cs">
+      <DependentUpon>fHDSpamBaiViet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomGoiY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomGoiY.Designer.cs">
+      <DependentUpon>fHDThamGiaNhomGoiY.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomGoiYv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomGoiYv2.Designer.cs">
+      <DependentUpon>fHDThamGiaNhomGoiYv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomTuKhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomTuKhoa.Designer.cs">
+      <DependentUpon>fHDThamGiaNhomTuKhoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomTuKhoav2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomTuKhoav2.Designer.cs">
+      <DependentUpon>fHDThamGiaNhomTuKhoav2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomUid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomUid.Designer.cs">
+      <DependentUpon>fHDThamGiaNhomUid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomUidv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDThamGiaNhomUidv2.Designer.cs">
+      <DependentUpon>fHDThamGiaNhomUidv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDTimKiemGoogle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDTimKiemGoogle.Designer.cs">
+      <DependentUpon>fHDTimKiemGoogle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDTruyCapWebsite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDTruyCapWebsite.Designer.cs">
+      <DependentUpon>fHDTruyCapWebsite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacBaiVietNhomv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacBaiVietNhomv2.Designer.cs">
+      <DependentUpon>fHDTuongTacBaiVietNhomv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacBaiVietTheoID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacBaiVietTheoID.Designer.cs">
+      <DependentUpon>fHDTuongTacBaiVietTheoID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacBanBe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacBanBe.Designer.cs">
+      <DependentUpon>fHDTuongTacBanBe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacNewsfeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacNewsfeed.Designer.cs">
+      <DependentUpon>fHDTuongTacNewsfeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacNewsfeedv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDTuongTacNewsfeedv2.Designer.cs">
+      <DependentUpon>fHDTuongTacNewsfeedv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDXacNhanKetBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDXacNhanKetBan.Designer.cs">
+      <DependentUpon>fHDXacNhanKetBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDXacNhanKetBanv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDXacNhanKetBanv2.Designer.cs">
+      <DependentUpon>fHDXacNhanKetBanv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDXemStory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDXemStory.Designer.cs">
+      <DependentUpon>fHDXemStory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDXemStoryChiDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDXemStoryChiDinh.Designer.cs">
+      <DependentUpon>fHDXemStoryChiDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDXemStoryv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDXemStoryv2.Designer.cs">
+      <DependentUpon>fHDXemStoryv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDXemWatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDXemWatch.Designer.cs">
+      <DependentUpon>fHDXemWatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDXemWatchv2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDXemWatchv2.Designer.cs">
+      <DependentUpon>fHDXemWatchv2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDXoaBaiPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDXoaBaiPage.Designer.cs">
+      <DependentUpon>fHDXoaBaiPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHDXoaBaiTuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHDXoaBaiTuong.Designer.cs">
+      <DependentUpon>fHDXoaBaiTuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHelpNhapComment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHelpNhapComment.Designer.cs">
+      <DependentUpon>fHelpNhapComment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fHuongDanRandom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fHuongDanRandom.Designer.cs">
+      <DependentUpon>fHuongDanRandom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fImportAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fImportAccount.Designer.cs">
+      <DependentUpon>fImportAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fImportProxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fImportProxy.Designer.cs">
+      <DependentUpon>fImportProxy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fImportUseragent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fImportUseragent.Designer.cs">
+      <DependentUpon>fImportUseragent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fIntro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fIntro.Designer.cs">
+      <DependentUpon>fIntro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fLocTheoDanhSachUid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fLocTheoDanhSachUid.Designer.cs">
+      <DependentUpon>fLocTheoDanhSachUid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fMoTrinhDuyet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fMoTrinhDuyet.Designer.cs">
+      <DependentUpon>fMoTrinhDuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fNhapCookieTrungGian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fNhapCookieTrungGian.Designer.cs">
+      <DependentUpon>fNhapCookieTrungGian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fNhapDuLieu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fNhapDuLieu1.Designer.cs">
+      <DependentUpon>fNhapDuLieu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fNhapDuLieu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fNhapDuLieu2.Designer.cs">
+      <DependentUpon>fNhapDuLieu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fNhapMailAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fNhapMailAdd.Designer.cs">
+      <DependentUpon>fNhapMailAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fNhapPassKhoiPhuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fNhapPassKhoiPhuc.Designer.cs">
+      <DependentUpon>fNhapPassKhoiPhuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fNhapTokenTrungGian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fNhapTokenTrungGian.Designer.cs">
+      <DependentUpon>fNhapTokenTrungGian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fNhapTokenTrungGian_DownAvatar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fNhapTokenTrungGian_DownAvatar.Designer.cs">
+      <DependentUpon>fNhapTokenTrungGian_DownAvatar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fQuanLyTinNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fQuanLyTinNhan.Designer.cs">
+      <DependentUpon>fQuanLyTinNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\frm_progress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\frm_progress.Designer.cs">
+      <DependentUpon>frm_progress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fSelectFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fSelectFolder.Designer.cs">
+      <DependentUpon>fSelectFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fShowProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fShowProgressBar.Designer.cs">
+      <DependentUpon>fShowProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fSuaBaiViet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fSuaBaiViet.Designer.cs">
+      <DependentUpon>fSuaBaiViet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fSuaChuDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fSuaChuDe.Designer.cs">
+      <DependentUpon>fSuaChuDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fTemplateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fTemplateForm.Designer.cs">
+      <DependentUpon>fTemplateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fThemBaiViet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fThemBaiViet.Designer.cs">
+      <DependentUpon>fThemBaiViet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fThemChuDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fThemChuDe.Designer.cs">
+      <DependentUpon>fThemChuDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fThemHanhDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fThemHanhDong.Designer.cs">
+      <DependentUpon>fThemHanhDong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fThemKichBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fThemKichBan.Designer.cs">
+      <DependentUpon>fThemKichBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fThemSizeChrome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fThemSizeChrome.Designer.cs">
+      <DependentUpon>fThemSizeChrome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fTienIchCheckImapHotmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fTienIchCheckImapHotmail.Designer.cs">
+      <DependentUpon>fTienIchCheckImapHotmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fTienIchCheckLiveUid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fTienIchCheckLiveUid.Designer.cs">
+      <DependentUpon>fTienIchCheckLiveUid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fTienIchCheckProxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fTienIchCheckProxy.Designer.cs">
+      <DependentUpon>fTienIchCheckProxy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fTienIchLocTrung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fTienIchLocTrung.Designer.cs">
+      <DependentUpon>fTienIchLocTrung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fUpdateData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fUpdateData.Designer.cs">
+      <DependentUpon>fUpdateData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fUpdateData2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fUpdateData2.Designer.cs">
+      <DependentUpon>fUpdateData2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\fViewChrome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxcare\fViewChrome.Designer.cs">
+      <DependentUpon>fViewChrome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxcare\GetIconFacebook.cs" />
+    <Compile Include="maxcare\Helper\AutoHelper.cs" />
+    <Compile Include="maxcare\Helper\CollectionHelper.cs" />
+    <Compile Include="maxcare\Helper\ConfigHelper.cs" />
+    <Compile Include="maxcare\Helper\DatagridviewHelper.cs" />
+    <Compile Include="maxcare\Helper\EmailHelper.cs" />
+    <Compile Include="maxcare\Helper\FileHelper.cs" />
+    <Compile Include="maxcare\Helper\JsonHelper.cs" />
+    <Compile Include="maxcare\Helper\MessageBoxHelper.cs" />
+    <Compile Include="maxcare\Helper\StringHelper.cs" />
+    <Compile Include="maxcare\Helper\User32Helper.cs" />
+    <Compile Include="maxcare\InternetConnection.cs" />
+    <Compile Include="maxcare\KichBan\Connector.cs" />
+    <Compile Include="maxcare\KichBan\InteractSQL.cs" />
+    <Compile Include="maxcare\Language.cs" />
+    <Compile Include="maxcare\Program.cs" />
+    <Compile Include="maxcare\Properties\Resources.cs" />
+    <Compile Include="maxcare\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="maxcare\TwoCaptcha.cs" />
+    <Compile Include="MCommon\AutoChrome.cs" />
+    <Compile Include="MCommon\AutoControl.cs" />
+    <Compile Include="MCommon\Chrome.cs" />
+    <Compile Include="MCommon\Common.cs" />
+    <Compile Include="MCommon\CommonChrome.cs" />
+    <Compile Include="MCommon\CommonRequest.cs" />
+    <Compile Include="MCommon\CommonSQL.cs" />
+    <Compile Include="MCommon\Connector.cs" />
+    <Compile Include="MCommon\EMouseKey.cs" />
+    <Compile Include="MCommon\Firefox.cs" />
+    <Compile Include="MCommon\GDI32.cs" />
+    <Compile Include="MCommon\HARDWAREINPUT.cs" />
+    <Compile Include="MCommon\ImageScanOpenCV.cs" />
+    <Compile Include="MCommon\INPUT.cs" />
+    <Compile Include="MCommon\JSON_Settings.cs" />
+    <Compile Include="MCommon\KEYBDINPUT.cs" />
+    <Compile Include="MCommon\KeyCode.cs" />
+    <Compile Include="MCommon\MinProxy.cs" />
+    <Compile Include="MCommon\MOUSEINPUT.cs" />
+    <Compile Include="MCommon\MOUSEKEYBDHARDWAREINPUT.cs" />
+    <Compile Include="MCommon\ProxyWeb.cs" />
+    <Compile Include="MCommon\RECT.cs" />
+    <Compile Include="MCommon\RequestHttp.cs" />
+    <Compile Include="MCommon\RequestXNet.cs" />
+    <Compile Include="MCommon\SetupFolder.cs" />
+    <Compile Include="MCommon\ShopLike.cs" />
+    <Compile Include="MCommon\Tinsoft.cs" />
+    <Compile Include="MCommon\TinsoftProxy.cs" />
+    <Compile Include="MCommon\TMProxy.cs" />
+    <Compile Include="MCommon\User32.cs" />
+    <Compile Include="MCommon\Vitech.cs" />
+    <Compile Include="MCommon\VKeys.cs" />
+    <Compile Include="MCommon\XproxyProxy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="update\IniFile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="maxcare\fBin.resx">
+      <DependentUpon>fBin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fCauHinhChung.resx">
+      <DependentUpon>fCauHinhChung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fCauHinhTuongTac.resx">
+      <DependentUpon>fCauHinhTuongTac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fChangeConfig.resx">
+      <DependentUpon>fChangeConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fConfigInteract.resx">
+      <DependentUpon>fConfigInteract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fDanhSachChuDe.resx">
+      <DependentUpon>fDanhSachChuDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fDanhSachKichBan_Old.resx">
+      <DependentUpon>fDanhSachKichBan_Old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDDangBaiTheoID.resx">
+      <DependentUpon>fHDDangBaiTheoID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHDXacNhanKetBanv2.resx">
+      <DependentUpon>fHDXacNhanKetBanv2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHelpNhapComment.resx">
+      <DependentUpon>fHelpNhapComment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fHuongDanRandom.resx">
+      <DependentUpon>fHuongDanRandom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fImportAccount.resx">
+      <DependentUpon>fImportAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fImportProxy.resx">
+      <DependentUpon>fImportProxy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fImportUseragent.resx">
+      <DependentUpon>fImportUseragent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fIntro.resx">
+      <DependentUpon>fIntro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fLocTheoDanhSachUid.resx">
+      <DependentUpon>fLocTheoDanhSachUid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fMoTrinhDuyet.resx">
+      <DependentUpon>fMoTrinhDuyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fQuanLyTinNhan.resx">
+      <DependentUpon>fQuanLyTinNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fThemHanhDong.resx">
+      <DependentUpon>fThemHanhDong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fThemSizeChrome.resx">
+      <DependentUpon>fThemSizeChrome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fTienIchLocTrung.resx">
+      <DependentUpon>fTienIchLocTrung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fUpdateData.resx">
+      <DependentUpon>fUpdateData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fUpdateData2.resx">
+      <DependentUpon>fUpdateData2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\fViewChrome.resx">
+      <DependentUpon>fViewChrome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxcare\Properties\Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="maxcare\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\max.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_window_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-minsoftware-new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload_to_ftp_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-dd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\available_updates_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_play_23px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_stop_25px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_stop_21px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negative %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recovery %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\870175 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\utility-rate %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1589513 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-graphics %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recovery %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\870175 %281%291.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

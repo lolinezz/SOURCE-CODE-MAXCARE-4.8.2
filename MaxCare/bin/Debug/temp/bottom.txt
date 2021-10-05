@@ -1,0 +1,72 @@
+﻿
+			$scope.raw_photo_objs = $scope.format_photo($scope.raw_photo_objs);
+			$scope.totalItems = $scope.raw_photo_objs.length;
+			$scope.currentPage = 1;
+			$scope.itemsPerPage = 20;
+			$scope.view_limit(1);
+			document.title = $scope.user_obj.name + ' - ' + $scope.user_obj.fb_id + ' - ' + $scope.user_obj.id + ' - ' +
+				$scope.user_obj.email;
+		});
+	</script>
+	<style>
+		.friend_line {
+			float: left;
+			width: 100%;
+			border-bottom: solid 1px gainsboro;
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+		}
+
+		.friend_info {
+			float: left;
+			padding: 5px;
+			border: solid 1px gainsboro;
+			margin-right: 20px;
+			margin-bottom: 10px;
+			width: 110px;
+			height: 168px;
+			background: white;
+		}
+
+		.friend_info .img {
+			float: left;
+			width: 100px;
+			height: 100px;
+		}
+
+		.friend_info .img img {
+			width: 100px;
+			height: 100px;
+		}
+
+		.friend_info .name {
+			float: left;
+			width: 100px;
+		}
+
+		.friend_photo {
+			float: left;
+			width: calc(100% - 130px);
+			padding: 5px 5px;
+			border: solid 1px gainsboro;
+			background: white;
+		}
+
+		.friend_photo .image {
+			width: 150px;
+			height: 150px;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			float: left;
+			text-align: center;
+			overflow: hidden;
+		}
+
+		.friend_photo .image img {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</body>
+
+</html>

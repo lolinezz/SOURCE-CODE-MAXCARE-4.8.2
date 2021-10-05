@@ -1,0 +1,19 @@
+{
+  "change_nudThread": "3",
+  "change_ckbDoiNgonNgu": "True",
+  "change_cbbNgonNgu": "vi_VN",
+  "change_ckbAddPhone": "True",
+  "change_txtPhone": "09xxxxxxxx",
+  "change_ckbDoiAvatar": "True",
+  "change_ckbDoiAnhBia": "True",
+  "change_typeUpCover": "0",
+  "change_ckbThemMoTa": "True",
+  "change_ckbCapNhatThongTin": "True",
+  "change_ckbDoiTen": "True",
+  "change_typeDatTen": "1",
+  "change_typeTenRandom": "0",
+  "change_ckbDoiPass": "True",
+  "change_typeDoiPass": "0",
+  "change_ckb2fa": "True",
+  "change_type2fa": "0"
+}

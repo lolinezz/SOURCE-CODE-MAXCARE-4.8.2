@@ -1,0 +1,134 @@
+D:\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.csproj.AssemblyReference.cache
+D:\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.csproj.CoreCompileInputs.cache
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fupdateData2.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.csproj.GenerateResource.cache
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fThemHanhDong.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fTienIchLocTrung.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fCauHinhChung.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fCauHinhTuongTac.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fChangeConfig.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fConfigInteract.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fHDXacNhanKetBanv2.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fHelpNhapComment.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fHuongDanRandom.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fImportAccount.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fImportProxy.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fImportUseragent.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fLocTheoDanhSachUid.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fmain.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fMoTrinhDuyet.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fThemSizeChrome.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fbin.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fDanhSachChuDe.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fDanhSachKichBan_Old.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fHDDangBaiTheoID.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fupdateData.resources
+D:\FILE MAXCARE\MaxCare\bin\Debug\MaxCare.exe
+D:\FILE MAXCARE\MaxCare\bin\Debug\MaxCare.pdb
+D:\FILE MAXCARE\MaxCare\bin\Debug\BouncyCastle.Crypto.dll
+D:\FILE MAXCARE\MaxCare\bin\Debug\AE.Net.Mail.pdb
+D:\FILE MAXCARE\MaxCare\bin\Debug\DeviceId.xml
+D:\FILE MAXCARE\MaxCare\bin\Debug\MailKit.xml
+D:\FILE MAXCARE\MaxCare\bin\Debug\MimeKit.xml
+D:\FILE MAXCARE\MaxCare\bin\Debug\Newtonsoft.Json.pdb
+D:\FILE MAXCARE\MaxCare\bin\Debug\Newtonsoft.Json.xml
+D:\FILE MAXCARE\MaxCare\bin\Debug\System.Data.SQLite.xml
+D:\FILE MAXCARE\MaxCare\bin\Debug\System.Data.SQLite.dll.config
+D:\FILE MAXCARE\MaxCare\bin\Debug\WebDriver.xml
+D:\FILE MAXCARE\MaxCare\bin\Debug\WebDriver.Support.xml
+D:\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.csproj.CopyComplete
+D:\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.exe
+D:\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.pdb
+D:\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.Properties.Resources.resources
+D:\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fIntro.resources
+D:\FILE MAXCARE\MaxCare\bin\Debug\MaxCare.exe.config
+D:\FILE MAXCARE\MaxCare\bin\Debug\MetroFramework.dll
+D:\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.Form1.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\MaxCare.exe.config
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\MaxCare.exe
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\MaxCare.pdb
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\BouncyCastle.Crypto.dll
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\AE.Net.Mail.pdb
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\DeviceId.xml
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\MailKit.xml
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\MimeKit.xml
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\Newtonsoft.Json.pdb
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\Newtonsoft.Json.xml
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\System.Data.SQLite.xml
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\System.Data.SQLite.dll.config
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\WebDriver.xml
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\bin\Debug\WebDriver.Support.xml
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.csproj.AssemblyReference.cache
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fbin.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fCauHinhChung.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fCauHinhTuongTac.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fChangeConfig.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fConfigInteract.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fDanhSachChuDe.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fDanhSachKichBan_Old.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fHDDangBaiTheoID.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fHDXacNhanKetBanv2.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fHelpNhapComment.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fHuongDanRandom.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fImportAccount.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fImportProxy.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fImportUseragent.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fIntro.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fLocTheoDanhSachUid.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fmain.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fMoTrinhDuyet.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fThemHanhDong.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fThemSizeChrome.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fTienIchLocTrung.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fupdateData.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\maxcare.fupdateData2.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.Properties.Resources.resources
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.csproj.GenerateResource.cache
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.csproj.CoreCompileInputs.cache
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.csproj.CopyComplete
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.exe
+D:\FILE MAXCARE\FILE MAXCARE\MaxCare\obj\Debug\MaxCare.pdb
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\MaxCare.exe
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\MaxCare.pdb
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\AE.Net.Mail.pdb
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\DeviceId.xml
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\MailKit.xml
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\MimeKit.xml
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\System.Data.SQLite.xml
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\WebDriver.xml
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\bin\Debug\WebDriver.Support.xml
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\MaxCare.csproj.AssemblyReference.cache
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fbin.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fCauHinhChung.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fCauHinhTuongTac.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fChangeConfig.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fConfigInteract.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fDanhSachChuDe.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fDanhSachKichBan_Old.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fHDDangBaiTheoID.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fHDXacNhanKetBanv2.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fHelpNhapComment.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fHuongDanRandom.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fImportAccount.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fImportProxy.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fImportUseragent.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fIntro.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fLocTheoDanhSachUid.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fmain.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fMoTrinhDuyet.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fquanLyTinNhan.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fThemHanhDong.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fThemSizeChrome.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fTienIchLocTrung.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fupdateData.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\maxcare.fupdateData2.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\MaxCare.Properties.Resources.resources
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\MaxCare.csproj.GenerateResource.cache
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\MaxCare.csproj.CoreCompileInputs.cache
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\MaxCare.csproj.CopyComplete
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\MaxCare.exe
+C:\Users\tungd\Downloads\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\SOURCE CODE MAXCARE 4.8.2\MaxCare\obj\Debug\MaxCare.pdb
